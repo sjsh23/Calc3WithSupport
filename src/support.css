@@ -1,0 +1,69 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #root {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .support-form {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .support-form h2 {
+    color: white;
+  }
+  
+  .support-form hr {
+    border: 1px solid white;
+    width: 100%;
+    margin: 20px 0;
+  }
+  
+  .form-group {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .form-group.textarea {
+    margin-bottom: 0;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .support-form form button {
+    background-color: yellow;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .text h1{
+    text-align: center;
+    width: 50rem;
+    font-size: 2rem;
+  }
+  
